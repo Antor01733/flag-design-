@@ -1,0 +1,187 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	font familly:serif;
+	font size:14px;
+	font-height:24px;
+	height:2000px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font familly:sans serif;
+}
+
+a{
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration:none;
+
+}
+
+.green{
+	width:600px;
+	height:400PX;
+	background-color: green;
+	position:relative;
+
+}
+.red{
+	width:160px;
+	height:160px;
+	background:red;
+	border-radius:100%;
+	position:absolute;
+	top:120px;
+	left:200px;
+	z-index: 0;
+}
+
+/*.yellow{
+	width:200px;
+	height:200px;
+	background:yellow;
+	border-radius:100%;
+	position:absolute;
+	top:90px;
+	left:90px;
+	z-index:1 ;
+} 
+
+
+.blue{
+	width:170px;
+	height:170px;
+	background:blue;
+	border-radius:100%;
+	position:absolute;
+	transform: translate(250px,250px);
+	z-index: 2;
+}
+
+.white{
+	width:120px;
+	height:120px;
+	background:white;
+	border-radius:100%;
+	position:absolute;
+	transform: translate(220px,220px);
+	z-index:3;
+}*/
+
+
+
+
+.fb{
+	width:140px;
+	position:fixed;
+	top:30%;
+	right:-100px;
+	transition:1s ease-in;
+
+}
+.fb:hover{
+	right: 2px;
+	cursor:pointer;
+}
+
+.linkedin{
+	width:140px;
+	position:fixed;
+	top:40%;
+	right:-100px;
+	transition:1s ease-in;
+}
+.linkedin:hover{
+	right:2px;
+	cursor:pointer;
+}
+
+.pinterest{
+	width:140px;
+	position:fixed;
+	top:55%;
+	right:-100px;
+	transition:1s ease-in;
+}
+
+.pinterest:hover{
+	right:2px;
+	cursor:pointer;
+}
+
+.twitter{
+	width:110px;
+	position:fixed;
+	top:70%;
+	right:-55px;
+	transition:1s ease-in;
+}
+.twitter:hover{
+	right:2px;
+	cursor:pointer;
+}
+.youtube{
+	width: 250px;
+	position:absolute;
+	top:100%;
+	left:-120px;
+	transition:1s ease-in;
+
+}
+
+.youtube:hover{
+left:2px;
+cursor:pointer;
+}
+
+
+.social-media{
+	width:100%;
+	height:100px;
+	padding:100px 20px;
+	margin:100px 0px;
+	background: url(../images/bc2.jpg);
+	background-size:cover;
+	background-repeat:no repeat;
+	background position:center;
+	position: fixed;
+	
+}
+
+
+
+.social-media-icon{
+	width:100%;
+	text-align:center;
+
+	
+
+}
+
+.social-media-icon li{
+	list-style: none;
+	display:inline-block;
+} 
+
+.social-media-icon li a{
+	display:block;
+	width:80px;
+	height:80px;
+	line-height:80px;
+	background:#08c;
+	color:#fff;
+	font-size: 35px;
+	border-radius:100%;
+
+}
+
+.social-media-icon li a:hover{
+	background:#000;
+	color:#08c;
+	transition:1s ease-in;
+}
